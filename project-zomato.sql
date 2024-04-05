@@ -128,7 +128,4 @@ inner join prod d
 on c.product_id = d.product_id)e
 group by user_id
 
-9. ---if buying each product generates points for eg 5rs = 2 zomato point and each product has diffeent 
- --purchasing point for eg P1 5rs =1 zomato point, P2 10rs = 5 and P3 5rs = 1 zomato point 
- --calculate points collected by each customer and for which product most points have been given till now 
 
